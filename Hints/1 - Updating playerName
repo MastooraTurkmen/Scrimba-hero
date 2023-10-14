@@ -1,0 +1,1 @@
+You can listen for changes in the input via the onChange event. Among many other things, the event contains the value of the input being targeted, so you just need to grab hold of it and set it as the value of playerName. 

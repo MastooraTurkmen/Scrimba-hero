@@ -1,0 +1,167 @@
+* {
+     box-sizing: border-box;
+     animation: fade-in 1s ease-in-out both;
+}
+
+body {
+    margin: 0;
+    background: #0e5135;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form, .name-input, button {
+    border-radius: 5px;
+    font-family: "New Rocker", cursive;
+    color: #494b4b;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 29px;
+}
+
+form {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+form {
+    background: #4aba91;
+}
+
+.image-container {
+    height: 100px;
+    width: 200px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    top: 0;
+    bottom: 10px;
+    left: 30px;
+    right: 0;
+    margin: auto;
+}
+
+.name-input {
+    background: #dddddd;
+    border: none;
+    height: 50px;
+    width: 90%;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+
+.name-input:focus {
+    outline: 5px solid #494b4b;
+}
+
+.name-input:disabled {
+    font-size: 15px;
+    background: #d4ce46;
+    border: 5px solid #494b4b;
+    animation: fade-in-2 1s ease-in-out both;
+}
+
+button {
+    position: relative;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background: #d4ce46;
+    color: #494b4b;
+    font-weight: bold;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 1;
+    letter-spacing: 1px;
+    box-shadow: #494b4b 0px 7px 2px, #000 0px 8px 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #f4ce46;
+}
+
+button:active:not(:disabled) {
+    top: 4px;
+    opacity: 1;
+    box-shadow: #494b4b 0px 3px 2px, #000 0px 3px 5px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+button:disabled {
+    opacity: 0;
+}
+
+button:focus {
+    outline: 2px solid #494b4b;
+}
+
+ .second-fade-in {
+    animation: fade-in-2 1s ease-in-out both;
+}
+
+.fade-out-and-in {
+    animation: fade-out-and-in .5s linear both;
+}
+
+p {
+    position: absolute;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    bottom: 12px;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out-and-in {
+    0% {
+        filter: blur(10px) 
+    }
+    100% {
+        filter: blur(0px) 
+    }
+}
+ 

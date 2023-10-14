@@ -1,0 +1,1 @@
+This just means the value of the input is controlled by state (playerName, in this case). The value of an input can be defined by adding a "value" attribute to it. Its value will then be whatever you say it is equal to. In this case, we want that to be playerName! 
