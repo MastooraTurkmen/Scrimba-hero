@@ -16,4 +16,3 @@ Head over to https://vitejs.dev/ to learn more about using vite
 ![Alt text](image.png)
 
 ![Alt text](image-1.png)
-
