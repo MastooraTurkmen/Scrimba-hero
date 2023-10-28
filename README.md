@@ -11,8 +11,12 @@ $ npm start
 
 Head over to https://vitejs.dev/ to learn more about using vite
 
-## Write your name 
+## Write the Name
 
 ![Alt text](image.png)
 
++ write your name on the input
+
 ![Alt text](image-1.png)
+
+ 
