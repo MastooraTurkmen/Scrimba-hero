@@ -13,12 +13,12 @@ Head over to https://vitejs.dev/ to learn more about using vite
 
 ## Write the Name
 
-![Alt text](image.png)
+![Alt text](./images/image.png)
 
 + write your name on the input
 
-![Alt text](image-1.png)
+![Alt text](./images/image-1.png)
 
  + press the *Continue* button
 
- ![Alt text](image-2.png)
+ ![Alt text](./images/image-2.png)
