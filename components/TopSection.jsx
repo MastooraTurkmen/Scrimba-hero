@@ -12,7 +12,7 @@ export default function TopSection({submitted}) {
                 <div className="image-container">
                     <img 
                         className={!submitted || classCondition ? null : "fade-out-and-in" }
-                        src={!submitted || classCondition ? "./images/character1.png" : "./images/character2.png"} />
+                        src={!submitted || classCondition ? "https://i.postimg.cc/1zZbRR0b/character1.png" : "./images/character2.png"} />
                 </div>
 
             </div>
