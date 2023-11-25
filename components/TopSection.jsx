@@ -15,7 +15,6 @@ export default function TopSection({submitted}) {
                         src={!submitted || classCondition ? "https://i.postimg.cc/1zZbRR0b/character1.png" 
                             : "https://i.postimg.cc/PJcFgdr3/character2.png"} />
                 </div>
-
             </div>
     )
     

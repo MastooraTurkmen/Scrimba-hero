@@ -13,6 +13,8 @@ Head over to https://vitejs.dev/ to learn more about using vite
 
 ## Write the Name
 
+> https://the-legend-of-scrimba.netlify.app/
+
 ![Alt text](./images/image.png)
 
 + write your name on the input
