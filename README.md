@@ -24,7 +24,7 @@ Head over to https://vitejs.dev/ to learn more about using vite
 
 ![Alt text](./images/image.png)
 
-+ write your name on the input
++ Write your name on the input
 
 ![Alt text](./images/image-1.png)
 
